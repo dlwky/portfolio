@@ -1,0 +1,22 @@
+header 
+{
+  background-color: #666;
+  padding: 30px;
+}
+
+body 
+{
+  background-color: #aaa;
+  font-family: sans-serif;
+}
+
+nav {background-color: #ccc; font-size: 18px; text-decoration-line: None;}
+
+footer 
+{
+  background-color: #ddd;
+  padding: 30px;
+  align: center;
+}
+
+<!-- Yza Castro, 301272405 -->

@@ -1,0 +1,47 @@
+#background
+{
+margin-right: auto; 
+margin-left: auto; 
+width: 100%; 
+max-width:500px; 
+min-width: 1000px;  
+background: #000000; 
+box-shadow: 3px 3px 3px 3px #333333;
+}
+
+#background
+{
+margin-right: auto; 
+margin-left: auto; 
+width: 100%; 
+max-width:500px; 
+min-width: 1000px;  
+background: #000000; 
+}
+
+.column 
+{
+  float: left;
+  width: 31.3%;
+  padding: 10px;
+  height: 150px;
+}
+
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+table {background: #fff2cc; border-color: #ce7e00; border-collapse: collapse;}
+
+td {border-color: #ce7e00; text-align: center; padding: 0.5em}
+
+tr {border-color: #ce7e00; padding: 0.5em}
+
+body {font-family: Helvetica;}
+
+p, form {color:white;}

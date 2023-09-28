@@ -1,0 +1,57 @@
+<!-- 
+  File: about.ejs
+  Student: Yza Castro
+  Student ID: 301-272-405
+  Date: September 28, 2023
+-->
+
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+    <center>
+        <main class="container">
+        <div class="jumbotron">
+                <br> <br>
+                <h1>About Me</h1>
+                <br>
+
+                <img src="/img/photo.png" alt="Your Headshot" class="headshot-image">
+            <br> <br>
+
+                <article>
+                <p>
+                  Hello! I'm Yza Castro, a dedicated and passionate Software Engineering Technician student. With a strong foundation in coding and problem-solving, I am enthusiastic about contributing to the ever-evolving tech industry. My hands-on experience with various programming languages and real-world projects has equipped me with the skills needed to excel in software development.
+                  <br> <br>
+                  Here are some of my projects that I have worked on and is working with:
+                  <br> 
+                  <a href="/projects" class="btn btn-primary">Projects</a>
+                  <br> <br>
+                  And what my services are:
+                  <br> 
+                  <a href="/services" class="btn btn-primary">Services</a>
+                </p>
+                </article> 
+
+                <br>
+                <h1> Resume </h1>
+                  <a href="/img/resume.pdf" target="_blank" class="btn btn-primary">View Resume (PDF)</a>
+                <br> <br> <br>
+        </div>
+    </main>
+          
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+    </center>
+
+    <style>
+        article {
+      font-size: 18px;
+      float: center;
+      padding: 30px;
+      width: 70%;
+      background-color: #f1f1f1;
+    }
+    </style>
+   

@@ -1,0 +1,47 @@
+header 
+{
+  background-color: #666;
+  padding: 30px;
+}
+
+body 
+{
+  font-family: sans-serif;
+}
+
+nav {background-color: #ccc; font-size: 18px; text-decoration-line: None;}
+
+footer 
+{
+  background-color: #ddd;
+  padding: 30px;
+  align: center;
+}
+
+table 
+{
+border-color: #CCC; 
+border-collapse: collapse;
+}
+
+
+td 
+{
+font-size: 15px;
+border-color: #CCC; 
+text-align: center; 
+padding: 0.5em
+}
+
+tr 
+{
+border-color: #CCC; 
+padding: 0.5em
+}
+
+tr:nth-of-type(odd) 
+{
+background: #AAA;
+}
+
+<!-- Yza Castro, 301272405 -->

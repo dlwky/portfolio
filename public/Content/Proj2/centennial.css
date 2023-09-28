@@ -1,0 +1,48 @@
+body 
+{
+background: linear-gradient(#FFFFFF, #90E3AE); 
+font-family: Helvetica;
+}
+
+#wrapper 
+{
+float: center;
+margin-right: auto; 
+margin-left: auto; 
+width: 100%; 
+max-width:500px; 
+min-width: 1000px;  
+background: #FFFFFF; 
+box-shadow: 3px 3px 3px 3px #333333;
+}
+
+#intro
+{
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 20px;
+margin-left: 20px;
+}
+
+#details
+{
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 20px;
+margin-left: 20px;
+}
+
+
+footer {font-size: 75%; padding: 20px;}
+
+main {padding: 1px 20px 20px 20px; display: block;}
+
+fieldset
+{
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 20px;
+margin-left: 20px;
+}
+
+
